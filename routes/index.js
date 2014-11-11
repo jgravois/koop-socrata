@@ -1,8 +1,8 @@
 module.exports = {
   'post /socrata': 'register',
   'get /socrata': 'list',
-  'get /socrata/:id/:item/arcgis/rest/info': 'featureservice',
-  'post /socrata/:id/:item/arcgis/rest/info': 'featureservice',
+  'get /socrata/:id/:item/arcgis/rest/info': 'featureserver',
+  'post /socrata/:id/:item/arcgis/rest/info': 'featureserver',
   'get /socrata/:id': 'find',
   'get /socrata/:id/:item.:format': 'findResource',
   'get /socrata/:id/:item': 'findResource',
